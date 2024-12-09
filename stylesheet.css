@@ -19,19 +19,35 @@ body {
     border-style: solid;
     border-color: black;
     background-color: grey;
-    width: 350px;
+    width: 370px;
     height: 100px;
     margin: 10px;
 }
 
-.row1{
+.row1, .row2, .row3,
+.row4, .row5{
     display:flex;
     justify-content: center;
     align-items: space-between;
     width: 350px;
-    height: 100px;
+    height: 50px;
     margin: 10px;
+    gap: 3px
 }
+
+button{
+    width: 80px;
+    height: 65px;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+#zero{
+    width: 163px;
+}
+
+
 
 
 
