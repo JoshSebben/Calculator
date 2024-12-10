@@ -11,41 +11,41 @@
     <script src="script.js"></script>
 
     <div id="baseplate">
-        <div class="userRow">
+        <div id="userRow">
 
         </div>
         <div class="row1">
-            <button id="clear" style="background-color:red">AC</button>
-            <button id="negative" style="background-color: #3d9ee8;">+/-</button>
-            <button id="percent" style="background-color: #3d9ee8;">%</button>
-            <button id="divide" style="background-color: #e8873d;">/</button>
+            <button id="clear" style="background-color:red" onclick="clearText();">AC</button>
+            <button id="negative" style="background-color: #3d9ee8;" onclick="changeText('-');">+/-</button>
+            <button id="percent" style="background-color: #3d9ee8;" onclick="changeText('%');">%</button>
+            <button id="divide" style="background-color: #e8873d;" onclick="changeText('/');">/</button>
         </div>
 
         <div class="row2">
-            <button id="seven">7</button>
-            <button id="eight">8</button>
-            <button id="nine">9</button>
-            <button id="multiply" style="background-color: #e8873d;">*</button>
+            <button id="seven" onclick="changeText('7');">7</button>
+            <button id="eight" onclick="changeText('8');">8</button>
+            <button id="nine" onclick="changeText('9');">9</button>
+            <button id="multiply" style="background-color: #e8873d;" onclick="changeText('x');">*</button>
         </div>
 
         <div class="row3">
-            <button id="four">4</button>
-            <button id="five">5</button>
-            <button id="six">6</button>
-            <button id="minus" style="background-color: #e8873d;">-</button>
+            <button id="four" onclick="changeText('4');">4</button>
+            <button id="five" onclick="changeText('5');">5</button>
+            <button id="six" onclick="changeText('6');">6</button>
+            <button id="minus" style="background-color: #e8873d;" onclick="changeText('-');">-</button>
         </div>
 
         <div class="row4">
-            <button id="one">1</button>
-            <button id="two">2</button>
-            <button id="three">3</button>
-            <button id="plus" style="background-color: #e8873d;">+</button>
+            <button id="one" onclick="changeText('1');">1</button>
+            <button id="two" onclick="changeText('2');">2</button>
+            <button id="three" onclick="changeText('3');">3</button>
+            <button id="plus" style="background-color: #e8873d;" onclick="changeText('+');">+</button>
         </div>
 
         <div class="row5">
-            <button id="zero">0</button>
-            <button id="decimal">.</button>
-            <button id="equals" style="background-color: green;">=</button>
+            <button id="zero" onclick="changeText('0');">0</button>
+            <button id="decimal" onclick="changeText('.');">.</button>
+            <button id="equals" style="background-color: green;">=</button> 
         </div>
     </div>
     
