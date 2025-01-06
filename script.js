@@ -20,3 +20,20 @@ function clearText(){
         userInput.removeChild(userInput.lastChild);
       }
 }
+
+function multiply(num1, num2){
+    return num1 * num2
+}
+
+function divide(num1, num2){
+    return num1 / num2
+}
+
+function add(num1, num2){
+    return num1 + num2 //add later to accept strings
+}
+
+function subtract(num1, num2){
+    return num1 - num2
+}
+
