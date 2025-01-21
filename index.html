@@ -18,28 +18,28 @@
             <button id="clear" style="background-color:red" onclick="clearText();">AC</button>
             <button id="negative" style="background-color: #3d9ee8;">+/-</button>
             <button id="percent" style="background-color: #3d9ee8;">%</button>
-            <button id="divide" style="background-color: #e8873d;">/</button>
+            <button id="divide" style="background-color: #e8873d;" onclick="chooser = 1">/</button>
         </div>
 
         <div class="row2">
             <button id="seven" onclick="changeText('7'); dataStore.push(7);">7</button>
             <button id="eight" onclick="changeText('8'); dataStore.push(8);">8</button>
             <button id="nine" onclick="changeText('9'); dataStore.push(9);">9</button>
-            <button id="multiply" style="background-color: #e8873d;">*</button>
+            <button id="multiply" style="background-color: #e8873d;" onclick="chooser = 2">*</button>
         </div>
 
         <div class="row3">
             <button id="four" onclick="changeText('4'); dataStore.push(4);">4</button>
             <button id="five" onclick="changeText('5'); dataStore.push(5);">5</button>
             <button id="six" onclick="changeText('6'); dataStore.push(6);">6</button>
-            <button id="minus" style="background-color: #e8873d;">-</button>
+            <button id="minus" style="background-color: #e8873d;" onclick="chooser = 3">-</button>
         </div>
 
         <div class="row4">
             <button id="one" onclick="changeText('1'); dataStore.push(1);">1</button>
             <button id="two" onclick="changeText('2'); dataStore.push(2);">2</button>
             <button id="three" onclick="changeText('3'); dataStore.push(3);">3</button>
-            <button id="plus" style="background-color: #e8873d;">+</button>
+            <button id="plus" style="background-color: #e8873d;" onclick="chooser = 4">+</button>
         </div>
 
         <div class="row5">
