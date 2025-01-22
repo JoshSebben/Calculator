@@ -23,6 +23,7 @@ function changeText(text){
 
         elem = document.getElementById(textForm);
         elem.innerHTML = text; 
+    
     }
     else if (chooser != 0){
         clearText()
@@ -59,4 +60,8 @@ function add(num1, num2){
 
 function subtract(num1, num2){
     return num1 - num2
+}
+
+function operate(){
+
 }
